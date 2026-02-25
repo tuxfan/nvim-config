@@ -1,5 +1,6 @@
 -- Setup mason early for lsp capabilities below
 require('mason').setup()
+vim.lsp.enable('clangd')
 
 require('lazydev').setup {
   library = {

@@ -36,10 +36,10 @@ vim.keymap.set('n', '<leader>qr', function()
 end, { desc = 'Restart session' })
 
 -- Flash keymaps
-vim.keymap.set({ 'n', 'x', 'o' }, 's', function()
+vim.keymap.set({ 'n', 'x', 'o' }, '<leader>w', function()
   require('flash').jump()
 end, { desc = 'Flash' })
-vim.keymap.set({ 'n', 'x', 'o' }, 'S', function()
+vim.keymap.set({ 'n', 'x', 'o' }, '<leader>W', function()
   require('flash').treesitter()
 end, { desc = 'Flash Treesitter' })
 vim.keymap.set('o', 'r', function()
