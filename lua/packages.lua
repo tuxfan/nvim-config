@@ -19,6 +19,9 @@ vim.pack.add {
   },
   --[[ ================================================================= ]]
 
+  -- codex
+  'https://github.com/kkrampis/codex.nvim',
+
   -- colorschemes
   'https://github.com/rose-pine/neovim',
   'https://github.com/EdenEast/nightfox.nvim',
@@ -105,6 +108,7 @@ vim.pack.add {
 require 'plugins.snacks-nvim'
 
 require 'plugins.colorschemes'
+require 'plugins.codex'
 require 'plugins.editing'
 require 'plugins.vcs'
 require 'plugins.lsp'
