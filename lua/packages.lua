@@ -58,6 +58,7 @@ vim.pack.add {
   -- noice
   'https://github.com/MunifTanjim/nui.nvim',
   'https://github.com/folke/noice.nvim',
+  'https://github.com/nvim-lua/plenary.nvim',
 
   -- multicursor
   {
@@ -67,6 +68,9 @@ vim.pack.add {
 
   -- oil
   'https://github.com/stevearc/oil.nvim',
+
+  -- obsidian
+  'https://github.com/obsidian-nvim/obsidian.nvim',
 
   -- others
   'https://github.com/AndresYague/move-enclosing.nvim',
@@ -116,6 +120,7 @@ require 'plugins.lualine'
 require 'plugins.multicursor'
 require 'plugins.noice'
 require 'plugins.oil'
+require 'plugins.obsidian'
 require 'plugins.orgmode'
 require 'plugins.others'
 require 'plugins.picker' -- Must come after plugins.lsp

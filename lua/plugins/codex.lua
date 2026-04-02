@@ -8,5 +8,6 @@ codex.setup {
   keymaps = {
     quit = '<C-q>',
   },
+  width = 0.5,
   panel = true,
 }
