@@ -114,11 +114,9 @@ vim.diagnostic.config {
 -- for you, so that they are available from within Neovim.
 local all_tools = {
   'autopep8',
-  'bacon-ls',
   'bash-language-server',
   'bibtex-tidy',
   'clang-format',
-  'clangd',
   'cmake-language-server',
   'cmakelang',
   'cmakelint',

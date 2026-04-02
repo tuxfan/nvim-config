@@ -3,6 +3,7 @@ local vault_path = vim.fn.expand '~/.config/bergen/obsidian-vault'
 vim.fn.mkdir(vault_path, 'p')
 
 require('obsidian').setup {
+  legacy_commands = false,
   workspaces = {
     {
       name = 'bergen-notes',
@@ -16,7 +17,6 @@ require('obsidian').setup {
   completion = {
     nvim_cmp = false,
   },
-  disable_frontmatter = true,
 }
 
 vim.keymap.set('n', '<leader>on', '<cmd>ObsidianNew<CR>', { desc = 'Obsidian new note' })
